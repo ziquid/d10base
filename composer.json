@@ -1,0 +1,26 @@
+{
+    "name": "ziquid/d10base",
+    "description": "ZDS Group Drupal 10 base project.",
+    "type": "metapackage",
+    "require": {
+        "drupal/recommended-project": "10.1.x",
+        "drush/drush": "^11.6"
+    },
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-project-message": false,
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "php-http/discovery": true
+        },
+        "sort-packages": true
+    },
+    "require-dev": {
+        "drupal/devel": "5.x-dev"
+    }
+}
