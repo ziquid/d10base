@@ -3,7 +3,6 @@
     "description": "ZDS Group Drupal 10 base project.",
     "type": "metapackage",
     "require": {
-        "drupal/recommended-project": "10.1.x",
         "drush/drush": "^11.6"
     },
     "license": "GPL-2.0-or-later",
